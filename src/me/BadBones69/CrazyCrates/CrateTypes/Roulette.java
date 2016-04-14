@@ -153,7 +153,7 @@ public class Roulette implements Listener{
 	public void onInvClick(InventoryClickEvent e){
 		Inventory inv = e.getInventory();
 		if(inv!=null){
-			if(inv.getName().equals(Api.color("&8&lRoulette Crate"))){
+			if(inv.getName().equals(Api.color("&5&lKinetic &a&lCrate"))){
 				e.setCancelled(true);
 			}
 		}
